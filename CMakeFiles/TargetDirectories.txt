@@ -1,0 +1,6 @@
+D:/OPRoS Engine/opros_Abalone_1.2a-dev_20140124/binary/example/helloworld/MessagePrinter/CMakeFiles/ALL_BUILD.dir
+D:/OPRoS Engine/opros_Abalone_1.2a-dev_20140124/binary/CMakeFiles/ComponentEngine.dir
+D:/OPRoS Engine/opros_Abalone_1.2a-dev_20140124/binary/example/helloworld/HelloMaker/CMakeFiles/HelloMaker.dir
+D:/OPRoS Engine/opros_Abalone_1.2a-dev_20140124/binary/example/helloworld/MessagePrinter/CMakeFiles/MessagePrinter.dir
+D:/OPRoS Engine/opros_Abalone_1.2a-dev_20140124/binary/CMakeFiles/OPRoSCDL.dir
+D:/OPRoS Engine/opros_Abalone_1.2a-dev_20140124/binary/CMakeFiles/ZERO_CHECK.dir

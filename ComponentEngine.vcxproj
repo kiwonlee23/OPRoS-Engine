@@ -1,0 +1,500 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{F638D8A5-CEC4-4CE5-8498-409F62187087}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ComponentEngine</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ComponentEngine.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ComponentEngine</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ComponentEngine.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ComponentEngine</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ComponentEngine.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ComponentEngine</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ComponentEngine.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ComponentEngine</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\include;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\src;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\cdl;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\src\system\os;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4290</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;EXECUTOR_USE_ADAPTOR;NO_VERIFY_COMPONENT;NO_BOOST;MAKE_COMPONENT_DLL;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;EXECUTOR_USE_ADAPTOR;NO_VERIFY_COMPONENT;NO_BOOST;MAKE_COMPONENT_DLL;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\include;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\src;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\cdl;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\src\system\os;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\include;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\src;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\cdl;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\src\system\os;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;ws2_32.lib;winmm.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>D:/OPRoS Engine/opros_Abalone_1.2a-dev_20140124/bin/Debug/ComponentEngine.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/OPRoS Engine/opros_Abalone_1.2a-dev_20140124/bin/Debug/ComponentEngine.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\include;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\src;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\cdl;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\src\system\os;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4290</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;EXECUTOR_USE_ADAPTOR;NO_VERIFY_COMPONENT;NO_BOOST;MAKE_COMPONENT_DLL;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;EXECUTOR_USE_ADAPTOR;NO_VERIFY_COMPONENT;NO_BOOST;MAKE_COMPONENT_DLL;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\include;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\src;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\cdl;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\src\system\os;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\include;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\src;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\cdl;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\src\system\os;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;ws2_32.lib;winmm.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ImportLibrary>D:/OPRoS Engine/opros_Abalone_1.2a-dev_20140124/bin/Release/ComponentEngine.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/OPRoS Engine/opros_Abalone_1.2a-dev_20140124/bin/Release/ComponentEngine.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\include;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\src;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\cdl;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\src\system\os;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4290</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;EXECUTOR_USE_ADAPTOR;NO_VERIFY_COMPONENT;NO_BOOST;MAKE_COMPONENT_DLL;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;EXECUTOR_USE_ADAPTOR;NO_VERIFY_COMPONENT;NO_BOOST;MAKE_COMPONENT_DLL;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\include;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\src;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\cdl;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\src\system\os;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\include;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\src;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\cdl;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\src\system\os;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;ws2_32.lib;winmm.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ImportLibrary>D:/OPRoS Engine/opros_Abalone_1.2a-dev_20140124/bin/MinSizeRel/ComponentEngine.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/OPRoS Engine/opros_Abalone_1.2a-dev_20140124/bin/MinSizeRel/ComponentEngine.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\include;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\src;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\cdl;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\src\system\os;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4290</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;EXECUTOR_USE_ADAPTOR;NO_VERIFY_COMPONENT;NO_BOOST;MAKE_COMPONENT_DLL;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;EXECUTOR_USE_ADAPTOR;NO_VERIFY_COMPONENT;NO_BOOST;MAKE_COMPONENT_DLL;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\include;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\src;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\cdl;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\src\system\os;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\include;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\src;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\cdl;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\src\system\os;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;ws2_32.lib;winmm.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>D:/OPRoS Engine/opros_Abalone_1.2a-dev_20140124/bin/RelWithDebInfo/ComponentEngine.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/OPRoS Engine/opros_Abalone_1.2a-dev_20140124/bin/RelWithDebInfo/ComponentEngine.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/OPRoS Engine/opros_Abalone_1.2a-dev_20140124/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" "-HD:/OPRoS Engine/opros_Abalone_1.2a-dev_20140124" "-BD:/OPRoS Engine/opros_Abalone_1.2a-dev_20140124/binary" --check-stamp-file "D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\binary\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/OPRoS Engine/opros_Abalone_1.2a-dev_20140124/CMakeLists.txt;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\CMakeLists.txt;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeVS10FindMake.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystem.cmake.in;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\binary\CMakeFiles\2.8.12.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeClDeps.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompiler.cmake.in;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\binary\CMakeFiles\2.8.12.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-CXX.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeClDeps.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompiler.cmake.in;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\binary\CMakeFiles\2.8.12.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCCompiler.cmake.in;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\binary\CMakeFiles\2.8.12.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompilerABI.c;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompiler.cmake.in;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\binary\CMakeFiles\2.8.12.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompiler.cmake.in;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\binary\CMakeFiles\2.8.12.2\CMakeCXXCompiler.cmake;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\binary\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/OPRoS Engine/opros_Abalone_1.2a-dev_20140124/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" "-HD:/OPRoS Engine/opros_Abalone_1.2a-dev_20140124" "-BD:/OPRoS Engine/opros_Abalone_1.2a-dev_20140124/binary" --check-stamp-file "D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\binary\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/OPRoS Engine/opros_Abalone_1.2a-dev_20140124/CMakeLists.txt;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\CMakeLists.txt;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeVS10FindMake.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystem.cmake.in;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\binary\CMakeFiles\2.8.12.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeClDeps.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompiler.cmake.in;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\binary\CMakeFiles\2.8.12.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-CXX.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeClDeps.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompiler.cmake.in;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\binary\CMakeFiles\2.8.12.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCCompiler.cmake.in;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\binary\CMakeFiles\2.8.12.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompilerABI.c;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompiler.cmake.in;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\binary\CMakeFiles\2.8.12.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompiler.cmake.in;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\binary\CMakeFiles\2.8.12.2\CMakeCXXCompiler.cmake;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\binary\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/OPRoS Engine/opros_Abalone_1.2a-dev_20140124/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" "-HD:/OPRoS Engine/opros_Abalone_1.2a-dev_20140124" "-BD:/OPRoS Engine/opros_Abalone_1.2a-dev_20140124/binary" --check-stamp-file "D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\binary\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/OPRoS Engine/opros_Abalone_1.2a-dev_20140124/CMakeLists.txt;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\CMakeLists.txt;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeVS10FindMake.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystem.cmake.in;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\binary\CMakeFiles\2.8.12.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeClDeps.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompiler.cmake.in;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\binary\CMakeFiles\2.8.12.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-CXX.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeClDeps.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompiler.cmake.in;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\binary\CMakeFiles\2.8.12.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCCompiler.cmake.in;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\binary\CMakeFiles\2.8.12.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompilerABI.c;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompiler.cmake.in;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\binary\CMakeFiles\2.8.12.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompiler.cmake.in;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\binary\CMakeFiles\2.8.12.2\CMakeCXXCompiler.cmake;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\binary\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/OPRoS Engine/opros_Abalone_1.2a-dev_20140124/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" "-HD:/OPRoS Engine/opros_Abalone_1.2a-dev_20140124" "-BD:/OPRoS Engine/opros_Abalone_1.2a-dev_20140124/binary" --check-stamp-file "D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\binary\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/OPRoS Engine/opros_Abalone_1.2a-dev_20140124/CMakeLists.txt;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\CMakeLists.txt;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeVS10FindMake.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystem.cmake.in;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\binary\CMakeFiles\2.8.12.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeClDeps.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompiler.cmake.in;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\binary\CMakeFiles\2.8.12.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-CXX.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeClDeps.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompiler.cmake.in;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\binary\CMakeFiles\2.8.12.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCCompiler.cmake.in;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\binary\CMakeFiles\2.8.12.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompilerABI.c;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompiler.cmake.in;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\binary\CMakeFiles\2.8.12.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompiler.cmake.in;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\binary\CMakeFiles\2.8.12.2\CMakeCXXCompiler.cmake;D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\OPRoS Engine\opros_Abalone_1.2a-dev_20140124\binary\CMakeFiles\generate.stamp</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\archive\opros_archive_common.cpp" />
+    <ClCompile Include="..\src\archive\opros_binary_iarchive.cpp" />
+    <ClCompile Include="..\src\archive\opros_binary_oarchive.cpp" />
+    <ClCompile Include="..\src\archive\opros_iarchive.cpp" />
+    <ClCompile Include="..\src\archive\opros_oarchive.cpp" />
+    <ClCompile Include="..\src\archive\opros_string_iarchive.cpp" />
+    <ClCompile Include="..\src\archive\opros_string_oarchive.cpp" />
+    <ClCompile Include="..\src\ArchiveFactory.cpp" />
+    <ClCompile Include="..\src\ArchiveManager.cpp" />
+    <ClCompile Include="..\src\BinaryArchiveFactory.cpp" />
+    <ClCompile Include="..\src\Component.cpp" />
+    <ClCompile Include="..\src\DataPort.cpp" />
+    <ClCompile Include="..\src\DataPortConnectorImpl.cpp" />
+    <ClCompile Include="..\src\DataPortLink.cpp" />
+    <ClCompile Include="..\src\Event.cpp" />
+    <ClCompile Include="..\src\EventPort.cpp" />
+    <ClCompile Include="..\src\EventPortConnectorImpl.cpp" />
+    <ClCompile Include="..\src\EventPortLink.cpp" />
+    <ClCompile Include="..\src\executor\Executor.cpp" />
+    <ClCompile Include="..\src\executor\ExecutorStarter.cpp" />
+    <ClCompile Include="..\src\executor\ThreadManager.cpp" />
+    <ClCompile Include="..\src\ext\ServiceConsole.cpp" />
+    <ClCompile Include="..\src\ext\ServiceConsoleWorker.cpp" />
+    <ClCompile Include="..\src\LifecycleInterface.cpp" />
+    <ClCompile Include="..\src\Method.cpp" />
+    <ClCompile Include="..\src\OPRoSUtility.cpp" />
+    <ClCompile Include="..\src\Port.cpp" />
+    <ClCompile Include="..\src\PortInterface.cpp" />
+    <ClCompile Include="..\src\PropertyInterface.cpp" />
+    <ClCompile Include="..\src\ServicePort.cpp" />
+    <ClCompile Include="..\src\ServicePortConnectorImpl.cpp" />
+    <ClCompile Include="..\src\StringArchiveFactory.cpp" />
+    <ClCompile Include="..\src\system\cm\ComponentAdapter.cpp" />
+    <ClCompile Include="..\src\system\cm\ComponentAdapterAtomic.cpp" />
+    <ClCompile Include="..\src\system\cm\ComponentAdapterComposite.cpp" />
+    <ClCompile Include="..\src\system\cm\ComponentAdapterRemoteProxy.cpp" />
+    <ClCompile Include="..\src\system\cm\ComponentLoaderDll.cpp" />
+    <ClCompile Include="..\src\system\cm\ComponentLocator.cpp" />
+    <ClCompile Include="..\src\system\cm\ComponentManager.cpp" />
+    <ClCompile Include="..\src\system\cm\ComponentPortConnector.cpp" />
+    <ClCompile Include="..\src\system\cm\ComponentRequester.cpp" />
+    <ClCompile Include="..\src\system\cm\ComponentRequestWorker.cpp" />
+    <ClCompile Include="..\src\system\cm\ComponentVerifier.cpp" />
+    <ClCompile Include="..\src\system\cm\CompositeInputDataPort.cpp" />
+    <ClCompile Include="..\src\system\cm\CompositeInputEventPort.cpp" />
+    <ClCompile Include="..\src\system\cm\CoordinationUnit.cpp" />
+    <ClCompile Include="..\src\system\cm\ExecutorManagerShared.cpp" />
+    <ClCompile Include="..\src\system\cm\NodeInfo.cpp" />
+    <ClCompile Include="..\src\system\cm\NodeLocator.cpp" />
+    <ClCompile Include="..\src\system\ComponentEngine.cpp" />
+    <ClCompile Include="..\src\system\ComponentEngineLoader.cpp" />
+    <ClCompile Include="..\src\system\config\Config.cpp" />
+    <ClCompile Include="..\src\system\config\ConfigLoader.cpp" />
+    <ClCompile Include="..\src\system\config\ConfigLoaderFactory.cpp" />
+    <ClCompile Include="..\src\system\config\props\PDFConfig.cpp" />
+    <ClCompile Include="..\src\system\config\props\PDFConfigLoader.cpp" />
+    <ClCompile Include="..\src\system\config\tinyxml\tinystr.cpp" />
+    <ClCompile Include="..\src\system\config\tinyxml\tinyxml.cpp" />
+    <ClCompile Include="..\src\system\config\tinyxml\TinyXmlConfig.cpp" />
+    <ClCompile Include="..\src\system\config\tinyxml\TinyXmlConfigLoader.cpp" />
+    <ClCompile Include="..\src\system\config\tinyxml\tinyxmlerror.cpp" />
+    <ClCompile Include="..\src\system\config\tinyxml\tinyxmlparser.cpp" />
+    <ClCompile Include="..\src\system\console\ConsoleProcessor.cpp" />
+    <ClCompile Include="..\src\system\console\TelnetConsole.cpp" />
+    <ClCompile Include="..\src\system\console\TelnetConsoleWorker.cpp" />
+    <ClCompile Include="..\src\system\control\AppController.cpp" />
+    <ClCompile Include="..\src\system\control\ComponentController.cpp" />
+    <ClCompile Include="..\src\system\control\ControllerManager.cpp" />
+    <ClCompile Include="..\src\system\control\EngineController.cpp" />
+    <ClCompile Include="..\src\system\deploy\ApplicationPackage.cpp" />
+    <ClCompile Include="..\src\system\deploy\ComponentPackage.cpp" />
+    <ClCompile Include="..\src\system\deploy\Package.cpp" />
+    <ClCompile Include="..\src\system\deploy\PackageDeployer.cpp" />
+    <ClCompile Include="..\src\system\deploy\PackageManager.cpp" />
+    <ClCompile Include="..\src\system\io\IoAcceptor.cpp" />
+    <ClCompile Include="..\src\system\io\IoConnection.cpp" />
+    <ClCompile Include="..\src\system\io\IoConnector.cpp" />
+    <ClCompile Include="..\src\system\io\IoEventProcessor.cpp" />
+    <ClCompile Include="..\src\system\io\IoEventTarget.cpp" />
+    <ClCompile Include="..\src\system\io\IoEventTargetManager.cpp" />
+    <ClCompile Include="..\src\system\io\IoInfo.cpp" />
+    <ClCompile Include="..\src\system\io\IoManager.cpp" />
+    <ClCompile Include="..\src\system\io\IoSelector.cpp" />
+    <ClCompile Include="..\src\system\io\IoTransport.cpp" />
+    <ClCompile Include="..\src\system\io\protocol\IoByteUtil.cpp" />
+    <ClCompile Include="..\src\system\io\protocol\IoDirectProtocol.cpp" />
+    <ClCompile Include="..\src\system\io\protocol\IoDirectWorker.cpp" />
+    <ClCompile Include="..\src\system\io\protocol\IoProtocol.cpp" />
+    <ClCompile Include="..\src\system\io\protocol\IoStreamByte.cpp" />
+    <ClCompile Include="..\src\system\io\protocol\IoWorker.cpp" />
+    <ClCompile Include="..\src\system\io\protocol\IoWorkerManager.cpp" />
+    <ClCompile Include="..\src\system\io\protocol\packet\IoPacketProtocol.cpp" />
+    <ClCompile Include="..\src\system\io\protocol\packet\IoPacketTranceiver.cpp" />
+    <ClCompile Include="..\src\system\io\protocol\packet\IoPacketWorker.cpp" />
+    <ClCompile Include="..\src\system\io\protocol\rpc\IoRequest.cpp" />
+    <ClCompile Include="..\src\system\io\protocol\rpc\IoRequestProtocol.cpp" />
+    <ClCompile Include="..\src\system\io\protocol\rpc\IoRequestTranceiver.cpp" />
+    <ClCompile Include="..\src\system\io\protocol\rpc\IoRequestWorker.cpp" />
+    <ClCompile Include="..\src\system\io\protocol\string\IoStringProtocol.cpp" />
+    <ClCompile Include="..\src\system\io\protocol\string\IoStringTranceiver.cpp" />
+    <ClCompile Include="..\src\system\io\protocol\string\IoStringtWorker.cpp" />
+    <ClCompile Include="..\src\system\io\tcp\TcpAcceptor.cpp" />
+    <ClCompile Include="..\src\system\io\tcp\TcpConnection.cpp" />
+    <ClCompile Include="..\src\system\io\tcp\TcpConnector.cpp" />
+    <ClCompile Include="..\src\system\io\tcp\TcpTransport.cpp" />
+    <ClCompile Include="..\src\system\log\FileLogger.cpp" />
+    <ClCompile Include="..\src\system\log\Logger.cpp" />
+    <ClCompile Include="..\src\system\log\LoggerFactory.cpp" />
+    <ClCompile Include="..\src\system\log\LogService.cpp" />
+    <ClCompile Include="..\src\system\Log.cpp" />
+    <ClCompile Include="..\src\system\ManagedObject.cpp" />
+    <ClCompile Include="..\src\system\monitor\DeployMonitor.cpp" />
+    <ClCompile Include="..\src\system\monitor\Monitor.cpp" />
+    <ClCompile Include="..\src\system\monitor\MonitoringMonitor.cpp" />
+    <ClCompile Include="..\src\system\monitor\MonitorManager.cpp" />
+    <ClCompile Include="..\src\system\monitor\MonitorProtocol.cpp" />
+    <ClCompile Include="..\src\system\monitor\MonitorWorker.cpp" />
+    <ClCompile Include="..\src\system\monitor\SymbolMonitor.cpp" />
+    <ClCompile Include="..\src\system\monitor\SymbolVariable.cpp" />
+    <ClCompile Include="..\src\system\os\OSCond_Port.cpp" />
+    <ClCompile Include="..\src\system\os\OSDll_Port.cpp" />
+    <ClCompile Include="..\src\system\os\OSFile.cpp" />
+    <ClCompile Include="..\src\system\os\OSFileSystem_Port.cpp" />
+    <ClCompile Include="..\src\system\os\OSFunctions.cpp" />
+    <ClCompile Include="..\src\system\os\OSGuard.cpp" />
+    <ClCompile Include="..\src\system\os\OSMutex_Port.cpp" />
+    <ClCompile Include="..\src\system\os\OSRunnable.cpp" />
+    <ClCompile Include="..\src\system\os\OSSema_Port.cpp" />
+    <ClCompile Include="..\src\system\os\OSSocketIp.cpp" />
+    <ClCompile Include="..\src\system\os\OSSocketTcp.cpp" />
+    <ClCompile Include="..\src\system\os\OSSocket_Port.cpp" />
+    <ClCompile Include="..\src\system\os\OSThread_Port.cpp" />
+    <ClCompile Include="..\src\system\os\OSTime.cpp" />
+    <ClCompile Include="..\src\system\os\OSTimeVal.cpp" />
+    <ClCompile Include="..\src\system\profile\AppDomainInfo.cpp" />
+    <ClCompile Include="..\src\system\profile\ApplicationProfile.cpp" />
+    <ClCompile Include="..\src\system\profile\CompanyInfo.cpp" />
+    <ClCompile Include="..\src\system\profile\ComponentInfo.cpp" />
+    <ClCompile Include="..\src\system\profile\ComponentProfile.cpp" />
+    <ClCompile Include="..\src\system\profile\CompositeComponentProfile.cpp" />
+    <ClCompile Include="..\src\system\profile\CoordinationInfo.cpp" />
+    <ClCompile Include="..\src\system\profile\CopyrightInfo.cpp" />
+    <ClCompile Include="..\src\system\profile\DataPortInfo.cpp" />
+    <ClCompile Include="..\src\system\profile\DataProfile.cpp" />
+    <ClCompile Include="..\src\system\profile\DataStructInfo.cpp" />
+    <ClCompile Include="..\src\system\profile\DataStructItemInfo.cpp" />
+    <ClCompile Include="..\src\system\profile\DataTypeInfo.cpp" />
+    <ClCompile Include="..\src\system\profile\EventPortInfo.cpp" />
+    <ClCompile Include="..\src\system\profile\ExecutionEnvironmentInfo.cpp" />
+    <ClCompile Include="..\src\system\profile\ExecutonSemanticsInfo.cpp" />
+    <ClCompile Include="..\src\system\profile\ExportPortInfo.cpp" />
+    <ClCompile Include="..\src\system\profile\FsmInfo.cpp" />
+    <ClCompile Include="..\src\system\profile\FsmProfile.cpp" />
+    <ClCompile Include="..\src\system\profile\FsmStateInfo.cpp" />
+    <ClCompile Include="..\src\system\profile\FsmTransitionInfo.cpp" />
+    <ClCompile Include="..\src\system\profile\MethodInfo.cpp" />
+    <ClCompile Include="..\src\system\profile\MethodProfile.cpp" />
+    <ClCompile Include="..\src\system\profile\ParamInfo.cpp" />
+    <ClCompile Include="..\src\system\profile\PortConnectionInfo.cpp" />
+    <ClCompile Include="..\src\system\profile\Profile.cpp" />
+    <ClCompile Include="..\src\system\profile\ServicePortInfo.cpp" />
+    <ClCompile Include="..\src\system\Registry.cpp" />
+    <ClCompile Include="..\src\system\service\ServiceManager.cpp" />
+    <ClCompile Include="..\src\system\SystemMain.cpp" />
+    <ClCompile Include="..\src\system\Trace.cpp" />
+    <ClCompile Include="..\src\system\util\DataObjectMap.cpp" />
+    <ClCompile Include="..\src\system\util\Exceptions.cpp" />
+    <ClCompile Include="..\src\system\util\LifecycleObject.cpp" />
+    <ClCompile Include="..\src\system\util\Printable.cpp" />
+    <ClCompile Include="..\src\system\util\Properties.cpp" />
+    <ClCompile Include="..\src\system\util\StringConverter.cpp" />
+    <ClCompile Include="..\src\system\util\StringStream.cpp" />
+    <ClCompile Include="..\src\system\util\StringUtil.cpp" />
+    <ClCompile Include="..\src\system\util\TimeUtil.cpp" />
+    <ClCompile Include="..\src\task\TaskModelBinder.cpp" />
+    <ClCompile Include="..\win\OCEWin.cpp" />
+    <ClCompile Include="..\win\stdafx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/OPRoS Engine/opros_Abalone_1.2a-dev_20140124/binary/ZERO_CHECK.vcxproj">
+      <Project>60401F75-FC0C-429F-B34E-EBFB1F69CEAE</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

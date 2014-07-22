@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package_profile>
+	<id>4eaedb7a-8266-4720-82ce-5b9c6fb03a5a</id>
+	<name>TestMessage</name>
+	<version>1.0</version>
+	<description />
+	<copyright>
+		<license_policy>OPRoS</license_policy>
+		<company>
+			<name />
+			<phone />
+			<address />
+			<homepage />
+		</company>
+	</copyright>
+	<subcomponents>
+		<subcomponent read_only="0" layout="479,202,250,200">
+			<node_id />
+			<name>HelloOpros</name>
+			<id>6fab7521-da64-4fca-98b5-9e9343500499</id>
+			<version>1.0</version>
+			<type>original</type>
+			<reference>HelloOpros.xml</reference>
+		</subcomponent>
+		<subcomponent read_only="0" layout="936,216,250,200">
+			<node_id />
+			<name>RecvOpros</name>
+			<id>1ad2b9ed-bffa-42b8-ba54-b3b2690d09b3</id>
+			<version>1.0</version>
+			<type>original</type>
+			<reference>RecvOpros.xml</reference>
+		</subcomponent>
+	</subcomponents>
+	<topics />
+	<port_connections>
+		<port_connection port_type="service">
+			<source component_name="HelloOpros" port_name="MessagePrintRequired" />
+			<target component_name="RecvOpros" port_name="MessagePrintProvider" />
+			<bend_points />
+		</port_connection>
+		<port_connection port_type="data">
+			<source component_name="HelloOpros" port_name="DataOut" />
+			<target component_name="RecvOpros" port_name="DataIn" />
+			<bend_points />
+		</port_connection>
+		<port_connection port_type="event">
+			<source component_name="HelloOpros" port_name="EventOut" />
+			<target component_name="RecvOpros" port_name="EventIn" />
+			<bend_points />
+		</port_connection>
+	</port_connections>
+</package_profile>
+

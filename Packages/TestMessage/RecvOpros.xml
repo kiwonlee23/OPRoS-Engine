@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component_profile>
+	<id>1ad2b9ed-bffa-42b8-ba54-b3b2690d09b3</id>
+	<name>RecvOpros</name>
+	<version>1.0</version>
+	<layout>936,216,250,200</layout>
+	<collapsed>0</collapsed>
+	<copyright>
+		<company>
+			<name />
+			<phone />
+			<address />
+			<homepage />
+		</company>
+		<license_policy />
+	</copyright>
+	<execution_environment>
+		<library_type>dll</library_type>
+		<library_name>RecvOpros.dll</library_name>
+		<impl_language>MSVC C++</impl_language>
+		<compiler>MSVC</compiler>
+		<app_domain />
+		<app_robot />
+	</execution_environment>
+	<execution_semantics>
+		<type>periodic</type>
+		<period>100</period>
+		<priority>5</priority>
+		<instance_creation>singleton</instance_creation>
+	</execution_semantics>
+	<properties />
+	<data_type_list />
+	<defined_data_types />
+	<defined_service_types>
+		<defined_service_type>MessagePrint.xml</defined_service_type>
+	</defined_service_types>
+	<exports />
+	<ports>
+		<service_port>
+			<name>MessagePrintProvider</name>
+			<description />
+			<type>MessagePrint</type>
+			<usage>provided</usage>
+			<reference>MessagePrint.xml</reference>
+			<layout>781,233,171,32</layout>
+		</service_port>
+		<data_port>
+			<name>DataIn</name>
+			<description />
+			<data_type>std::string</data_type>
+			<usage>input</usage>
+			<reference />
+			<queueing_policy>FIFO</queueing_policy>
+			<queue_size>10</queue_size>
+			<layout>881,317,71,32</layout>
+		</data_port>
+		<event_port>
+			<name>EventIn</name>
+			<description />
+			<data_type>std::string</data_type>
+			<usage>input</usage>
+			<layout>876,384,76,32</layout>
+		</event_port>
+	</ports>
+</component_profile>
+
