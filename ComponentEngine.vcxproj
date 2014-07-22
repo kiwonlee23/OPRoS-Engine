@@ -488,6 +488,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="..\src\task\TaskModelBinder.cpp" />
     <ClCompile Include="..\win\OCEWin.cpp" />
     <ClCompile Include="..\win\stdafx.cpp" />
+    <ClCompile Include="소스.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="D:/OPRoS Engine/opros_Abalone_1.2a-dev_20140124/binary/ZERO_CHECK.vcxproj">
